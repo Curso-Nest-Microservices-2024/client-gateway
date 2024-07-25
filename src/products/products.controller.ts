@@ -33,7 +33,8 @@ export class ProductsController {
 
       return product;
     } catch (error) {
-      throw new BadRequestException(error);
+      // throw new BadRequestException(error);
+      
     }
 
   }
